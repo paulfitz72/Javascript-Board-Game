@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 angular
-  .module('twentyfourtyeightApp', ['ngCookies'])
-  .controller(GameController', function(GameManger) {
+  .module('twentyfourtyeightApp', ['Game'])
+  .controller('GameController', function(GameManger) {
         this.game = GameManager;
 });
